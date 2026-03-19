@@ -3,9 +3,7 @@
 **Backend C# / .NET разработчик** из Москвы. Строю надежные микросервисы и люблю чисто написанный код.
 
 *   🔭 Сейчас работаю над коммерческим **Digital Signage** продуктом в компании Maestro.
-*   🌱 Глубоко изучаю **DDD, Clean Architecture** и паттерны микросервисного взаимодействия.
-*   👯 Буду рад сотрудничеству и интересным .NET проектам.
-*   ⚡ Участник хакатонов и призёр чемпионата РФ 2024.
+*   ⚡ Участник хакатонов (последний - хакатон от RWB в НИЯУ МИФИ)
 
 ---
 
@@ -23,7 +21,7 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-*Также знаком с:* **MongoDB, Elasticsearch, RabbitMQ, MinIO**
+*Также знаком с:* **MongoDB, RabbitMQ, MinIO**
 
 ---
 
@@ -37,7 +35,8 @@
 *   Организовал загрузку файлов в S3 через Presigned URL.
 
 **Pet/Учебные проекты**
-*   *(Сюда можно добавить ссылки на репозитории с вашими проектами, если они есть, например: "Микросервисный блог на .NET + gRPC" или "Реализация Result Pattern")*
+*   *Название: Inventory Management System (Система управления складскими запасами)*
+    *Ссылка: github.com/maze37/InventoryManagementSystem*
 
 ---
 
