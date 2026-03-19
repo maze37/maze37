@@ -35,8 +35,8 @@
 *   Организовал загрузку файлов в S3 через Presigned URL.
 
 **Pet/Учебные проекты**
-*   *Название: Inventory Management System (Система управления складскими запасами)*
-    *Ссылка: github.com/maze37/InventoryManagementSystem*
+*   * Название: Inventory Management System (Система управления складскими запасами) *
+*   * Ссылка: github.com/maze37/InventoryManagementSystem *
 
 ---
 
