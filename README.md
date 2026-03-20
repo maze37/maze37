@@ -2,7 +2,6 @@
 
 **Backend C# / .NET разработчик** из Москвы. Строю надежные микросервисы и люблю чисто написанный код.
 
-*   🔭 Сейчас работаю над коммерческим **Digital Signage** продуктом в компании Maestro.
 *   ⚡ Участник хакатонов (последний - хакатон от RWB в НИЯУ МИФИ)
 
 ---
@@ -17,11 +16,8 @@
 ![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=grpc&logoColor=white)
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-*Также знаком с:* **MongoDB, RabbitMQ, MinIO**
+*Также знаком с:* **MongoDB, RabbitMQ, MinIO, основы Frontend разработки**
 
 ---
 
@@ -35,11 +31,6 @@
 *   Организовал загрузку файлов в S3 через Presigned URL.
 
 **Pet/Учебные проекты**
-*   * Название: Inventory Management System (Система управления складскими запасами) *
-*   * Ссылка: github.com/maze37/InventoryManagementSystem *
+*   * Название: Inventory Management System (Система управления складскими запасами)
 
 ---
-
-### 🛠 Стек технологий
-
-**Profile views counter** - *(счетчик просмотров профиля - можно добавить позже, когда будете оформлять GitHub)*
