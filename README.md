@@ -2,8 +2,6 @@
 
 **Backend C# / .NET разработчик** из Москвы. Строю надежные микросервисы и люблю чисто написанный код.
 
-*   ⚡ Участник хакатонов (последний - хакатон от RWB в НИЯУ МИФИ)
-
 ---
 
 ### 💻 Мой стек технологий
@@ -16,6 +14,7 @@
 ![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=grpc&logoColor=white)
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
 
 *Также знаком с:* **MongoDB, RabbitMQ, MinIO, основы Frontend разработки**
 
@@ -31,6 +30,6 @@
 *   Организовал загрузку файлов в S3 через Presigned URL.
 
 **Pet/Учебные проекты**
-*   * Название: Inventory Management System (Система управления складскими запасами)
+*   Inventory Management System (Система управления складскими запасами)
 
 ---
