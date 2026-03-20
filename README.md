@@ -1,6 +1,6 @@
 ### 👋 Привет, я Данил Сейтназаров!
 
-**Backend C# / .NET разработчик** из Москвы. Строю надежные микросервисы и люблю чисто написанный код.
+**Backend C# / .NET разработчик** из Москвы. Строю надежные микросервисы и люблю чисто написанный код. 19 лет. Учусь в НИЯУ МИФИ на Бизнес-информатике.
 
 ---
 
@@ -16,7 +16,7 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 
-*Также знаком с:* **MongoDB, RabbitMQ, MinIO, основы Frontend разработки**
+*Также знаком с:* **MongoDB, RabbitMQ, MinIO, основы Frontend**
 
 ---
 
@@ -29,7 +29,25 @@
 *   Внедрил CQRS/MediatR и покрыл код unit/integration тестами (Testcontainers).
 *   Организовал загрузку файлов в S3 через Presigned URL.
 
-**Pet/Учебные проекты**
-*   Inventory Management System (Система управления складскими запасами)
+### 🚀 Пет-проекты
+
+#### [Inventory Management System](https://github.com/maze37/InventoryManagement)
+Система управления складскими запасами. REST API с Clean Architecture, DDD, CQRS.
+
+**Стек:** .NET 10, EF Core, PostgreSQL, MediatR, FluentValidation, Testcontainers, Docker
+
+- Доменная модель с Value Objects и защитой инвариантов
+- CQRS через MediatR с ValidationBehavior pipeline
+- Интеграционные тесты с реальной БД через Testcontainers
+- Optimistic Concurrency через Version поле агрегата
+
+#### Document Signing Service *(в разработке)*
+Сервис для подписания и верификации документов. RSA + SHA-256, Clean Architecture, DDD.
 
 ---
+
+### 📫 Контакты
+
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/mazefm)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maze37)
+📧 Mazeland@yandex.ru
