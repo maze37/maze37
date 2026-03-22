@@ -1,8 +1,8 @@
-### 👋 Привет, я Данил Сейтназаров!
+## 👋 Привет, я Данил Сейтназаров!
 
 **Backend C# / .NET разработчик**. Строю надежные микросервисы и люблю чисто написанный код.
 
-Участвовал в * Кейс-чемпионате Plekhanov Case Club & АльфаБанк, Changellenge CUP IT 2026 *
+Участвовал в **Кейс-чемпионате Plekhanov Case Club & АльфаБанк, Changellenge CUP IT 2026**
 
 ---
 
@@ -21,23 +21,23 @@
 
 ---
 
-### 📌 Опыт
+## 📌 Опыт
 
-**Maestro** — Backend Developer *(2025 — н.в.)*
+### **Maestro** — Backend Developer *(2025 — н.в.)*
 
 Участвую в разработке коммерческого Digital Signage продукта.
 
-- Спроектировал доменную модель по принципам DDD — агрегаты, Value Objects, защита бизнес-инвариантов
-- Реализовал REST API в рамках Clean Architecture — от анализа Use Cases до готовых эндпоинтов
+- Спроектировал доменную модель Админ Сервиса по принципам DDD — агрегаты, Value Objects, защита бизнес-инвариантов
+- Реализовал REST API в рамках Clean Architecture — от анализа Use Cases до готовых эндпоинтов (Основываясь на контрактах от Fronted разработчика)
 - Настроил gRPC взаимодействие между микросервисами, разработал SharedKernel (Result Pattern, общие контракты)
 - Внедрил CQRS через MediatR, покрыл код интеграционными тестами с реальной БД (Testcontainers)
 - Реализовал загрузку файлов в S3 через паттерн Presigned URL
 
 ---
 
-### 🚀 Пет-проекты
+## 🚀 Пет-проекты
 
-#### [Inventory Management System](https://github.com/maze37/InventoryManagement)
+### [Inventory Management System](https://github.com/maze37/InventoryManagement)
 Система управления складскими запасами. REST API с Clean Architecture, DDD, CQRS.
 
 **Стек:** .NET 10, EF Core, PostgreSQL, MediatR, FluentValidation, Testcontainers, Docker
@@ -49,7 +49,7 @@
 
 ---
 
-#### [Subscription System](https://github.com/maze37/SubscriptionSystem)
+### [Subscription System](https://github.com/maze37/SubscriptionSystem)
 Сервис управления подписками. Полный жизненный цикл — триал, активация, смена плана, отмена.
 
 **Стек:** .NET 10, EF Core, PostgreSQL, MediatR, FluentValidation, Docker
