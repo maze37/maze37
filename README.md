@@ -1,7 +1,6 @@
 ### 👋 Привет, я Данил Сейтназаров!
 
 **Backend C# / .NET разработчик** из Москвы. Строю надежные микросервисы и люблю чисто написанный код.
-                Учусь в НИЯУ МИФИ на Бизнес-информатике.
 
 ---
 
@@ -40,13 +39,20 @@
 - Доменная модель с Value Objects и защитой инвариантов
 - CQRS через MediatR с ValidationBehavior pipeline
 - Интеграционные тесты с реальной БД через Testcontainers
+- Optimistic Concurrency через Version поле агрегата
 
+---
 
-#### Subscription System
+#### [Subscription System](https://github.com/maze37/SubscriptionSystem)
+Сервис управления подписками пользователей. Полный жизненный цикл — триал, активация, смена плана, отмена.
 
+**Стек:** .NET 10, EF Core, PostgreSQL, MediatR, FluentValidation, Docker
 
-#### Document Signing Service *(в разработке)*
-Сервис для подписания и верификации документов. RSA + SHA-256, Clean Architecture, DDD.
+- Доменная модель с тремя агрегатами — User, Plan, Subscription
+- Invoice как Entity внутри агрегата — история всех платежей
+- Бизнес-правила: триал только один раз, нельзя иметь две активные подписки
+- IDateTimeProvider для тестируемости временной логики
+- ValidationBehavior pipeline через MediatR
 
 ---
 
