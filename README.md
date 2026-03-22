@@ -1,7 +1,7 @@
 ### 👋 Привет, я Данил Сейтназаров!
 
 **Backend C# / .NET разработчик** из Москвы. Строю надежные микросервисы и люблю чисто написанный код.
-19 лет. Учусь в НИЯУ МИФИ на Бизнес-информатике.
+                Учусь в НИЯУ МИФИ на Бизнес-информатике.
 
 ---
 
@@ -40,7 +40,10 @@
 - Доменная модель с Value Objects и защитой инвариантов
 - CQRS через MediatR с ValidationBehavior pipeline
 - Интеграционные тесты с реальной БД через Testcontainers
-- Optimistic Concurrency через Version поле агрегата
+
+
+#### Subscription System
+
 
 #### Document Signing Service *(в разработке)*
 Сервис для подписания и верификации документов. RSA + SHA-256, Clean Architecture, DDD.
