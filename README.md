@@ -73,20 +73,6 @@
 
 ---
 
-### [Order Notification System](https://github.com/maze37/OrderNotificationSystem) *(в разработке)*
-
-Сервис уведомлений о статусах заказов на основе событийной архитектуры.
-
-**Стек:** .NET 10, RabbitMQ, Redis, PostgreSQL, Docker
-
-- Асинхронная обработка событий через RabbitMQ
-- Кэширование состояний через Redis
-- Clean Architecture, DDD
-
-> 🚧 Проект находится в активной разработке
-
----
-
 ## 📫 Контакты
 
 <div align="center">
