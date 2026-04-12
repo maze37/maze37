@@ -34,7 +34,7 @@
 
 ## 📌 Опыт
 
-### **Maestro** — Backend Developer *(2025 — н.в.)*
+### **Maestro** (Startup) — Backend Developer *(2025 — н.в.)*
 
 Участвую в разработке коммерческого Digital Signage продукта.
 
@@ -46,7 +46,7 @@
 
 ---
 
-## 🚀 Пет-проекты
+## 🚀 Учебные проекты
 
 ### [Subscription System](https://github.com/maze37/SubscriptionSystem) `C#`
 
