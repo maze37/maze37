@@ -1,6 +1,7 @@
 # 👋🏻 Привет, я Сейтназаров Данил!
 
 <div align="center">
+  
 **Backend Developer (.NET / C#).**  
 Работаю в команде над backend-сервисами: быстро погружаюсь в задачи, держу фокус на результате и довожу решения до продакшена.  
 Ценю понятную коммуникацию, качественный код и архитектуру, которую удобно развивать.
@@ -32,18 +33,6 @@
 ![gRPC](https://img.shields.io/badge/gRPC-%23244c5a.svg?style=for-the-badge&logo=google&logoColor=white)
 
 </div>
-
----
-
-## 📌 Опыт
-
-### Maestro (Startup) — Backend Developer (2025 — н.в.)
-
-- Спроектировал и реализовал AdminService для управления медиаконтентом и плейлистами.
-- Реализовал загрузку и обновление файлов до 1 ГБ через S3 Presigned URL (audio/video/image).
-- Спроектировал доменную модель плейлистов по DDD: агрегат Playlist, Value Objects, бизнес-инварианты.
-- Реализовал жизненный цикл плейлиста: draft -> published -> active.
-- Настроил взаимодействие AdminService и MediaStorageService через gRPC (upload/download/delete).
 
 ---
 
