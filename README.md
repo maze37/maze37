@@ -1,6 +1,12 @@
-# 👋 Привет, я Данил Сейтназаров!
+# 👋🏻 Привет, я Сейтназаров Данил!
 
-**Backend разработчик.** Строю надёжные микросервисы, проектирую доменные модели и люблю чисто написанный код. Основной стек — C# / .NET, активно развиваюсь в Go.
+<div align="center">
+
+**Backend Developer (.NET / C#).**       
+Проектирую и разрабатываю backend-сервисы на C#/.NET.                                                     
+Фокус — поддерживаемая архитектура и продакшен-результат.
+
+</div>
 
 ---
 
@@ -8,25 +14,24 @@
 
 <div align="center">
 
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
+![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
+![ASP.NET](https://img.shields.io/badge/ASP.NET-%23512BD4.svg?style=for-the-badge&logo=dotnet&logoColor=white)
+![Entity Framework](https://img.shields.io/badge/Entity%20Framework-%23338fcc.svg?style=for-the-badge&logo=dotnet&logoColor=white)
 
 </div>
 
 <div align="center">
-  
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![MinIO](https://img.shields.io/badge/MinIO-C72E49?style=for-the-badge&logo=minio&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=grpc&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![ElasticSearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-%23FF6600.svg?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-%23244c5a.svg?style=for-the-badge&logo=google&logoColor=white)
+![Rider](https://img.shields.io/badge/Rider-000000.svg?style=for-the-badge&logo=rider&logoColor=white&color=black&labelColor=crimson)
 
 </div>
 
@@ -34,15 +39,13 @@
 
 ## 📌 Опыт
 
-### **Maestro** (Startup) — Backend Developer *(2025 — н.в.)*
+### Maestro (Startup) — Backend Developer (2025 — н.в.)
 
-Участвую в разработке коммерческого Digital Signage продукта.
-
-- Проектирование доменной модели по принципам DDD — агрегаты, Value Objects, бизнес-инварианты
-- Разработка REST API в рамках Clean Architecture на основе контрактов с Frontend
-- Настройка gRPC взаимодействия между микросервисами, разработка SharedKernel (Result Pattern, общие контракты)
-- Внедрение CQRS через MediatR, покрытие бизнес-логики интеграционными тестами (Testcontainers)
-- Реализация загрузки файлов в S3 через паттерн Presigned URL
+- Спроектировал и реализовал AdminService для управления медиаконтентом и плейлистами.
+- Реализовал загрузку и обновление файлов до 1 ГБ через S3 Presigned URL (audio/video/image).
+- Спроектировал доменную модель плейлистов по DDD: агрегат Playlist, Value Objects, бизнес-инварианты.
+- Реализовал жизненный цикл плейлиста: draft -> published -> active.
+- Настроил взаимодействие AdminService и MediaStorageService через gRPC (upload/download/delete).
 
 ---
 
@@ -59,18 +62,6 @@
 
 ---
 
-### [Inventory Management System](https://github.com/maze37/InventoryManagement) `C#`
-
-Система управления складскими запасами. REST API с Clean Architecture, DDD, CQRS.
-
-**Стек:** .NET 10, EF Core, PostgreSQL, MediatR, FluentValidation, Testcontainers, Docker
-
-- Доменная модель с Value Objects и защитой инвариантов
-- CQRS через MediatR с ValidationBehavior pipeline
-- Интеграционные тесты с реальной БД через Testcontainers
-
----
-
 ### [Auth Service](https://github.com/maze37/auth-service) `Go`
 
 gRPC микросервис аутентификации. Регистрация, логин, валидация JWT токенов.
@@ -80,19 +71,6 @@ gRPC микросервис аутентификации. Регистрация
 - Чистая архитектура: domain → service → transport
 - gRPC контракт с тремя методами — Register, Login, ValidateToken
 - Автоматические миграции при старте через golang-migrate
-
----
-
-### [URL Shortener](https://github.com/maze37/url-shortener) `Go`
-
-HTTP-сервис сокращения ссылок с кэшированием и статистикой переходов.
-
-**Стек:** Go, PostgreSQL, Redis, Docker
-
-- Асинхронный счётчик кликов через горутины — редирект не блокируется
-- Кэш-стратегия: Redis → PostgreSQL с graceful degradation
-- Graceful shutdown — корректное завершение текущих запросов
-- Swagger UI документация
 
 ---
 
